@@ -11,12 +11,12 @@ const App = () => {
     <>
       <Header />
       <Container>
-     <Routes>
-      <Route path="/" element={<HomePage/>}></Route>
-     </Routes>
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+        </Routes>
       </Container>
       <main className="py-3"></main>
-     
+
       <Footer />
     </>
   );
