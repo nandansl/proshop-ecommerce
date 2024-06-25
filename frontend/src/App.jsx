@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import { Container } from "react-bootstrap";
 import HomePage from "./screens/HomePage";
 import { Route, Routes } from "react-router-dom";
+import ProductScreen from "./screens/ProductScreen";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Container>
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
+          <Route path="product/:id" element={<ProductScreen />}></Route>
         </Routes>
       </Container>
       <main className="py-3"></main>
